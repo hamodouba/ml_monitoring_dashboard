@@ -1,0 +1,26 @@
+# Environnement virtuel
+venv/
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Données et modèles (trop lourds ou sensibles)
+data/*.csv
+models/*.joblib
+models/*.pkl
+
+# IDE
+.vscode/
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/
